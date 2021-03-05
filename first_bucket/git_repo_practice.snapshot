@@ -1,0 +1,58 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "a0afaa57-bb21-3181-84ef-a1c1da366e5c",
+        "inputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "a0afaa57-bb21-3181-84ef-a1c1da366e5c",
+          "identifier" : "b0d245ef-3c66-3a33-89c5-290d58e27b3e",
+          "name" : "test3",
+          "position" : {
+            "x" : 567.0000595318411,
+            "y" : 92.99999386498826
+          },
+          "type" : "INPUT_PORT"
+        } ],
+        "labels" : [ ],
+        "name" : "git practice",
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "a0afaa57-bb21-3181-84ef-a1c1da366e5c",
+          "identifier" : "024fc6a9-2ea7-3cc9-9578-d878d50f5495",
+          "name" : "test git persistence",
+          "position" : {
+            "x" : 328.00005953184103,
+            "y" : 13.999993864988255
+          },
+          "type" : "OUTPUT_PORT"
+        } ],
+        "position" : {
+          "x" : 712.0,
+          "y" : 1120.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
